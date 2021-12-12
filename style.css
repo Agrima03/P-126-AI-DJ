@@ -1,0 +1,51 @@
+body{
+    background-size: cover;
+}
+
+#heading{
+    font-size: 30px;
+}
+
+#heading{
+    padding: 10px;
+    box-shadow: 5px 10px 20px rgb(144, 251, 251);
+}
+
+#animate{
+    float: left;
+    position: relative;
+    animation: mymove 2s infinite; 
+}
+
+@keyframes mymove{
+    from{
+        left:0px;
+    }
+    to{
+        left:900px;
+    }
+}
+
+#note{
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+.play{
+    background-color: greenyellow;
+    color: black;
+    width:150px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: monospace;
+    border: none;
+    border: 1px black dashed;
+    
+}
+
+canvas{
+    border: white 2px dashed;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px whitesmoke;
+}
